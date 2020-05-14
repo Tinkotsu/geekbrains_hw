@@ -22,6 +22,6 @@ while True:
 print('\nВаша структура:', res)
 
 for elem in res:
-	for item in elem[1]:
-		shop_dict.get(item).append(elem[1].get(item))
+	for item in elem[1].items():
+		shop_dict.get(item[0]).append(item[1])
 print('\nАналитика о товарах:', shop_dict)
