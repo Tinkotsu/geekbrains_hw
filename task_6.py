@@ -1,6 +1,6 @@
 import sys
 res = []
-shop_dict = {'название': None, 'цена': None, 'количество': None, 'ед.': None}
+shop_dict = {'название': [], 'цена': [], 'количество': [], 'ед.': []}
 i = 1
 while True:
 	new = shop_dict.copy()
@@ -22,7 +22,6 @@ while True:
 	i += 1
 print('\nВаша структура:', res)
 
-shop_dict = {'название': [], 'цена': [], 'количество': [], 'ед.': []}
 for elem in res:
 	for item in elem[1]:
 		shop_dict.get(item).append(elem[1].get(item))
