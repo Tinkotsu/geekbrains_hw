@@ -5,5 +5,7 @@ def int_func(text):
 
 print(int_func('text'))
 
+res_str = ''
 for word in map(int_func, input('Введите строку: ').split()):
-    print(word, end=' ')
+    res_str += word + ' '
+print(res_str[0:-1])
