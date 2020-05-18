@@ -8,4 +8,4 @@ print(int_func('text'))
 res_str = ''
 for word in map(int_func, input('Введите строку: ').split()):
     res_str += word + ' '
-print(res_str[:-1])
+print(res_str.rstrip(' '))
