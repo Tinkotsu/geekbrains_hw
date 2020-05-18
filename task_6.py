@@ -4,5 +4,4 @@ def int_func(text):
 
 
 print(int_func('text'))
-
 print(' '.join(list(map(int_func, input('Введите строку: ').split()))))
