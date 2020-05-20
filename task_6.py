@@ -1,11 +1,10 @@
 def fact(n):
     res = 1
-    if n == 0:  # сделал проверку на 0!, хоть и вывод с 1!
+    for i in range(1, n + 1):
+        res *= i
+        yield res
+    else:  # сделал проверку на 0!, хоть и в задании не выводим этот случай
         yield 1
-    else:
-        for i in range(1, n + 1):
-            res *= i
-            yield res
 
 
 num = int(input('Введите положительное число: '))
