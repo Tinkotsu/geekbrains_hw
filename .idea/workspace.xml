@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f13a334f-c504-4d72-aee8-df0122ebd8ff" name="Default Changelist" comment="added task_1">
-      <change beforePath="$PROJECT_DIR$/task_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_7.py" afterDir="false" />
-    </list>
+    <list default="true" id="f13a334f-c504-4d72-aee8-df0122ebd8ff" name="Default Changelist" comment="added task_1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
