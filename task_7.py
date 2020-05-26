@@ -12,6 +12,7 @@ with open('task_7.txt') as f:
         if profit > 0:
             i += 1
             f_sum += profit
-    avg_dict.update({"average_profit": f_sum / i})
+    avg = f_sum / i if i > 0 else 0
+    avg_dict.update({"average_profit": avg})
 with open('task_7_ans.json', 'w', encoding='utf-8') as f:
     json.dump([firm_dict, avg_dict], f, ensure_ascii=False)
